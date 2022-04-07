@@ -53,43 +53,20 @@ margin-right: 5%;
 .about_us{
   height: 100vh;
   background: rgb(8,8,12);
-background: radial-gradient(circle, rgba(8,8,12,1) 0%, rgba(177,150,116,1) 49%, rgba(9,1,2,1) 100%);
+
 
 }
 
-.black{
-  background-color: black;
-  position: relative;
-  top: 18%;
-  height: 65vh;
-  width: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.pic1{
-  height: 85%;
-  width: 22%;
-  background-image: url('images/pour.jpg');
-  background-size: cover;
-  border-radius: 15%;
-  cursor: pointer;
-}
-.pic2{
-  height: 85%;
-  width: 22%;
-  background-image: url('images/plant.jpg');
-  background-size: cover;
-  border-radius: 15%;
-  cursor: pointer;
-}
 .pic3{
+  position: relative;
+  left: 55%;
+  top: 5%;
   height: 85%;
-  width: 22%;
+  width: 35vw;
   background-image: url('images/expr.jpg');
   background-size: cover;
-  border-radius: 15%;
-  cursor: pointer;
+  border-radius: 5%;
+
 }
 
 
