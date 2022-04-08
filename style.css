@@ -52,6 +52,7 @@ margin-right: 5%;
   margin: auto 3% auto 3%;
   cursor: pointer;
 }
+
 /* HEADER SECTION end */
 
 
@@ -205,23 +206,52 @@ background: radial-gradient(circle, rgba(97,77,77,1) 3%, rgba(46,46,47,1) 96%, r
 /* BOOK TABLE section end */
 
 
-
-
-
-
-
-
 /* CONTACT US section start */
-.contact_us{
-  height: 100vh;
+.foot{
+  height: 50vh;
+  color: white;
+  width: 70vw;
 }
 
-.form_area{
-  position: relative;
-  top: 10%;
-  left: 3%;
-  border: 3px solid yellow;
-  height: 80%;
-  width: 45vw;
+
+
+.foot h3, .adress, .openMon_Fri, .openWeek{
+  margin-bottom: 3%;
+  margin-left: 3%;
+  font-family: sans-serif;
 }
+.foot h3{
+  font-family: "Nunito", sans-serif;
+  font-size: 1.8rem;
+}
+.phone{
+  margin-top: 3%;
+  font-family: sans-serif;
+}
+.office, .phone{
+  font-family: sans-serif;
+ position: relative;
+ left: 40%;
+ bottom: 60%;
+}
+.email{
+  font-family: sans-serif;
+ position: relative;
+ left: 40%;
+ bottom: 40%;
+}
+.email p{
+  margin-bottom: 1%;
+}
+.email input{
+  font-size: 1.2rem;
+}
+.email button{
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  padding: 3px 3px 2px 3px;
+  cursor: pointer;
+}
+
+
 /* CONTACT US section end */
