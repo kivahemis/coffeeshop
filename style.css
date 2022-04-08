@@ -29,8 +29,8 @@ text-shadow: 1px 1px 3px black;
 
 .under_title{
   position: fixed;
-  bottom: 50vh;
-  left: 16vh;
+  bottom: 40vh;
+  left: 15vh;
   transform: rotate(180deg);
   font-size: 1rem;
   text-shadow: 1px 1px 10px black;
@@ -47,12 +47,25 @@ margin-right: 5%;
 }
 
 .list_class li{
+  position: relative;
   color: #aa7c62;
   font-family: 'Russo One', sans-serif;
   margin: auto 3% auto 3%;
   cursor: pointer;
 }
-
+.list_class li:after{
+  content: "";
+  position: absolute;
+  background-color: #aa7c62;
+  width: 0%;
+  height: 3px;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.list_class li:hover:after{
+  width: 100%;
+}
 /* HEADER SECTION end */
 
 
@@ -252,6 +265,13 @@ background: radial-gradient(circle, rgba(97,77,77,1) 3%, rgba(46,46,47,1) 96%, r
   padding: 3px 3px 2px 3px;
   cursor: pointer;
 }
-
-
 /* CONTACT US section end */
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1230px) {
+  .title, .under_title{
+    left: 5%;
+  }
+}
