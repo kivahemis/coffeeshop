@@ -34,6 +34,7 @@ text-shadow: 1px 1px 3px black;
   transform: rotate(180deg);
   font-size: 1rem;
   text-shadow: 1px 1px 10px black;
+  font-family: sans-serif;
 
 }
 .list_class{
@@ -149,21 +150,39 @@ background: radial-gradient(circle, rgba(97,77,77,1) 3%, rgba(46,46,47,1) 96%, r
 /* MENU SECTION end  */
 
 /* BOOK TABLE section */
-.book_table{
-  height: 100vh;
+/* .book_table{
+  height: 50vh;
   background-color: grey;
+  background-image: url("images/wood.jpg");
+  background-size: cover;
 }
 
-.book_table img{
-  position: relative;
-  top: 5%;
-  left: 5%;
-  height: 85%;
-  width: 35vw;
-  border-radius: 5%;
+.book_table h1, button, p{
+
+padding: 0;
+margin: 0;
+position: relative;
+top: 15%;
+left: 10%;
 }
 
+.book_table h1{
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Fredoka One', cursive;
 
+
+
+}
+.book_table p{
+  color: white;
+  top: 25%;
+  font-family: sans-serif;
+}
+
+.book_table button{
+  top: 35%;
+} */
 
 
 /* BOOK TABLE section end */
